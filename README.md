@@ -147,17 +147,13 @@ void kirimKeThingSpeak(float distCm, float distInch) {
 
 ### Tampilan Dashboard ThingSpeak
 Data jarak berhasil dikirim dan divisualisasikan dalam bentuk grafik secara *real-time*. Interval pengiriman data adalah setiap 15 detik.
-*(Letakkan screenshot dashboard ThingSpeak Anda di sini)*
 
-``
+<img width="1912" height="919" alt="Image" src="https://github.com/user-attachments/assets/1909e98c-247e-4cb8-8f5b-a8db5be14e4d" />
 
 ### Tampilan Serial Monitor
 Serial monitor pada Arduino IDE menunjukkan proses koneksi WiFi, pengukuran jarak, dan status pengiriman data ke ThingSpeak.
-*(Letakkan screenshot serial monitor Anda di sini)*
 
-``
-
----
+<img width="694" height="346" alt="Image" src="https://github.com/user-attachments/assets/29ab61e5-f718-4899-b8ef-f1595fd8cd62" />
 
 ## ✅ Kesimpulan
 Proyek ini berhasil menunjukkan bahwa ESP32 dapat diintegrasikan dengan sensor ultrasonik untuk mengukur jarak dan mengirimkan data secara nirkabel ke platform cloud seperti ThingSpeak. Sistem ini efektif untuk pemantauan jarak jauh dan dilengkapi dengan indikator LED lokal untuk peringatan langsung.
